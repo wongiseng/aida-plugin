@@ -1,4 +1,13 @@
 <plugins>
 	<plugin>aid-0.1.1.xml</plugin>
-	<plugin>aid-0.2.0.xml</plugin>
+	<plugin>aid-0.2.1.xml</plugin>
+	<plugin>aid-0.2.2.xml</plugin>
+	<plugin>aid-0.2.3.xml</plugin>
+	<plugin>aid-0.2.4.xml</plugin>
+	<plugin>aid-0.2.5.xml</plugin>
+	<plugin>aid-0.2.6.xml</plugin>
+	<plugin>aid-0.2.7.xml</plugin>
+	<plugin>aid-0.3.xml</plugin>
+	<plugin>aid-0.3.1.xml</plugin>
+	<plugin>aid-0.3.2.xml</plugin>
 </plugins>

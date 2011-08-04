@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins:plugin xmlns:plugins="http://taverna.sf.net/2008/xml/plugins"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://taverna.sf.net/2008/xml/plugins http://taverna.sourceforge.net/2008/xml/plugins/plugins-2008-10-16.xsd ">
+	<provider>taverna.aid.vle.org</provider>
+	<identifier>org.vle.aid.taverna</identifier>
+	<version>0.3.2</version>
+	<name>Taverna 2 AIDA Plugin </name>
+
+	<description> 
+		      AIDA Plugin 0.3.2 (for Taverna 2.3.0)  
+	</description>
+
+	<enabled>true</enabled>
+
+	<repositories>
+		<repository> http://dev.adaptivedisclosure.org/repository </repository>
+		<repository> http://repo1.maven.org/maven2 </repository>
+                <repository>http://www.mygrid.org.uk/maven/repository/</repository>
+                <repository>http://odftoolkit.org/svn/odfdom~maven2/release/</repository>
+	</repositories>
+
+	<profile>
+		<artifact groupId="org.vle.aid.taverna" artifactId="aid-plugin" version="0.3.1" />
+    </profile>
+
+    <compatibility>
+                <application>
+                        <version>2.3.0</version>
+                </application>
+    </compatibility>
+
+</plugins:plugin>
+
