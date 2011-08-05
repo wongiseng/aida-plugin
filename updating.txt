@@ -1,6 +1,15 @@
 Updating version in Taverna, things to check :
 
-1. Versions in pom, taverna.infrastructure usually changes for major, and other minor versions.
-2. Create aid-new-version.xml, add it to pluginlist.xml on server
-3. Modify aid-perspective.xml according to (1)
-4. mvn clean install deploy
+1. Change version numbers in pom.xml, taverna.infrastructure usually changes for major, and other minor versions.
+   Look into the new release of taverna, save a perspective and check for the component's version
+
+2. Also update these files (according to 1): 
+	src/main/resources/aida-perspective.xml 
+   	src/main/resources/org/vle/aid/taverna/aida-perspective.xml 
+
+3. Create a new file : aid-<new-version>.xml put it on tomcat-dev/webapps/repository
+   Create this by copying previous version and updating the necessary version number.
+
+4. Add an entry of this new version to pluginlist.xml on tomcat-dev/webapps/repository
+
+5. mvn clean install deploy
