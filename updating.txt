@@ -1,0 +1,6 @@
+Updating version in Taverna, things to check :
+
+1. Versions in pom, taverna.infrastructure usually changes for major, and other minor versions.
+2. Create aid-new-version.xml, add it to pluginlist.xml on server
+3. Modify aid-perspective.xml according to (1)
+4. mvn clean install deploy
